@@ -1,0 +1,4 @@
+work/
+pkg/
+Gemfile.lock
+jenkins.war

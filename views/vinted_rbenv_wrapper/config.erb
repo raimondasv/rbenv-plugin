@@ -1,0 +1,11 @@
+<%
+f = taglib("/lib/form")
+f.entry(:title => 'Ruby version', :field => 'ruby_version', :description => "Ruby, such as '2.2.2'") do
+  f.textbox(:default => '2.2.2')
+end
+f.advanced do
+  f.entry(:title => 'rbenv root', :field => 'rbenv_root', :description => 'Installation path of rbenv') do
+    f.textbox(:default => '$HOME/.rbenv')
+  end
+end
+%>
