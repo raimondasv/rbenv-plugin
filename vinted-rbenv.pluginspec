@@ -5,7 +5,7 @@ Jenkins::Plugin::Specification.new do |plugin|
 
 #  plugin.url = 'https://wiki.jenkins-ci.org/display/JENKINS/Vinted+Rbenv+Plugin'
   plugin.developed_by 'Tomas Brazys', 'tomas.brazys@vinted.com'
-#  plugin.uses_repository :github => 'vinted/rbenv-plugin'
+  plugin.uses_repository :github => 'vinted/rbenv-plugin'
 
   plugin.depends_on 'ruby-runtime', '0.12'
 end
